@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr>
+    <h3>Hesap bilgileriniz</h3>
+    <form>
+        <label for="kullanıc adı">Kullanıcı adı:</label>
+        <input type="text" id="kullanıcı adı" name="kullanıcı adı" placeholder="kullanıcı adınızı giriniz" required><br><br>
+        <label for="email">Eposta:</label>
+        <input type="email" id="email" name="email" placeholder="Eposta giriniz" required><br><br>
+        <label for="parol">Parola:</label>
+        <input type="password" id="parol" name="parol" placeholder="parola giriniz" required><br><br><br>
+    
+        <h3>Kişisel bilgileriniz</h3>
+    
+        <Label for="ad">Adınız:</Label>
+        <input type="text" id="ad" name="ad" placeholder="ad giriniz" required><br><br>
+        <Label for="sad">Soyadınız:</Label>
+        <input type="text" id="sad" name="sad" placeholder="soyad giriniz" required><br><br>
+        <label for="sehir">Şehir:</label>
+        <select type="" id="sehir" name="sehir" required>
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara">Ankara</option>
+            <option value="antalya">Antalya</option>
+            <option value="trabzon">Trabzon</option>
+            <option value="izmir">İzmir</option>
+        </select><br><br>
+        Cinsiyyet:
+        <input type="radio" id="erkek" name="cinsiyyet">
+        <label for="cinsiyyet">Erkek</label>    
+        <input type="radio" id="kadın" name="cinsiyyet">
+        <label for="cinsiyyet">Kadın</label><br><br>
+        Hobileriniz:
+        <input type="checkbox" id="sinema" name="sinema"> 
+        <label for="sinema">Sinema</label>
+        <input type="checkbox" id="gezmek" name="gezmek"> 
+        <label for="gezmek">Gezmek</label> 
+        <input type="checkbox" id="spor" name="spor"> 
+        <label for="spor">Spor</label> 
+        <input type="checkbox" id="kitap" name="kitap"> 
+        <label for="kitap">Kitap</label><br><br>
+        <input type="submit" value="kaydet">
+    </form>
+</body>
+</html>
